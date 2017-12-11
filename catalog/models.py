@@ -98,7 +98,7 @@ class Author(models.Model):
         """
         return reverse('author-detail', args=[str(self.id)])
 
-    def __str__(sefl):
+    def __str__(self):
         """
         String for representing the Model Object.
         """
